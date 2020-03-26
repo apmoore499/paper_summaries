@@ -1,0 +1,34 @@
+CENTIPEDE (Pique-Regi et al 2011)
+
+what is the goal
+
+we want to predict the probability that a motif in a regulatory region is bound by a 
+transcription factor 
+
+
+what is the data
+
+TRANSFAC and JASPAR databases
+the human genome sequence (hg18) was scanned (all matches above a specified threshold considered to be match)
+the experimental daata in a 200-400 bp window around the site to be used in the likelihood
+Based on chip-seq data, we know the individual binding locations for TFs across the entire genome
+
+
+
+what is the motivation / reason for doing this study
+
+the identification of regulatory regions remains difficult
+we don't know which locations in the genome are involved in gene regulation
+this makes it difficult to predict the effect of noncoding variants (ie SNP)
+Transcription factors bind to motifs in non-coding regions, regulating the transcription of DNA
+
+Chip-seq is inefficient because each experiment profiles just one TF.
+Becuase of inefficiency, it's hard to profile more than a few TFs in any tissue, let alone
+across different conditions
+
+
+The computational approaches in this can help but many motifs are not actually bound by TFs
+
+
+what is the method
+
