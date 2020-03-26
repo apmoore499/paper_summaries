@@ -1,0 +1,38 @@
+
+circuitSNP (Shanku et al 2018)
+
+what is the goal
+
+in this experiment we want to see whether specific combinations of footprints can predict 
+whether the chromatin is open or closed
+
+
+then we want to try and predict which SNPs (or genetic variants) can affect open or 
+closed chromatin in particular cell types
+
+
+
+the goal of our method is to learn the configuration of these switches and ultimately 
+in doing so learn whcih genetic variants may alter the cis-regulatory circuit specific
+to a cell-type or cell-condition
+
+
+predict the effect of genetic variants on the overall output
+
+what is the data
+
+the number of DNASE-seq reads and their spatial distribution surrounding each motif
+
+the computational predictions of the centiSNP study: the SNP which affect
+the prior-odds of binding for a particular transcription-factor / motif combination
+the results of this study used. but this study used same data as CENTIPEDE study
+
+DNase-Seq reads
+
+
+
+
+what is the method
+
+
+First 
