@@ -1,0 +1,15 @@
+
+CentiSNP
+
+the goal
+
+to predict whether the genetic variant (SNP) affects the odds of TF binding for particular
+motifs
+
+This takes into account the specific regulatory context considering all the footprints 
+within the region
+
+The thing is that they demonstrated that transcription factor binding 
+is different for each tissue type!!! critical!!
+
+
